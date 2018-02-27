@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Routes} from './routes';
 import './App.css';
 import NavContainer from './components/nav/NavContainer';
+import FooterContainer from './components/footer/FooterContainer';
 
 class App extends Component {
     render() {
@@ -10,6 +11,7 @@ class App extends Component {
                 <div>
                     <NavContainer />
                     <Routes />
+                    <FooterContainer />
                 </div>
             </div>
         );

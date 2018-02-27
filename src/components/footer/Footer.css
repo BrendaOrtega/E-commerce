@@ -1,0 +1,16 @@
+.footer{
+    background-color: #453b3b;
+    width:100%;
+    color:white;
+    height:auto;
+    padding-bottom: 10px;
+}
+.redes span{
+    margin: 0 10px;
+}
+.linea{
+    height:1px;
+    border: none;
+    background-color: rgba(255,255,255,.5);
+
+}

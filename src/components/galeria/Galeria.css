@@ -1,0 +1,47 @@
+.box_galeria{
+    margin-top: 50px;
+    background-color: #fbf9f7;
+    padding: 10px 0;
+}
+.insta{
+    width:200px;
+    flex-grow: 1;
+    margin: 10px;
+    height:200px;
+    background-image: url('https://scontent.fmex5-1.fna.fbcdn.net/v/t31.0-8/28238951_1550850951676954_7710864302541132258_o.jpg?oh=b617111985a43bbb25d8cb035643d952&oe=5B00EFDC');
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+.cover{
+    background-color: transparent;
+    width:100%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 1s ease;
+}
+.line{
+    background-color: white;
+    height:1px;
+    border:none;
+    width:0;
+    transition: all 1s ease;
+    border-radius: 1px;
+}
+.cover p {
+    margin: 0;
+    color:transparent;
+    transition: all 1s ease;
+}
+.insta:hover .cover{
+    background-color: rgba(227, 128, 27, .9);
+
+}
+.insta:hover .line{
+    width:100px;
+}
+.insta:hover p{
+    color:white;
+}

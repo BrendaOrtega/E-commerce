@@ -2,11 +2,33 @@
     width:400px;
     cursor: pointer;
     flex-grow: 1;
-    margin: 10px 10px ;
+
     height:300px;
+    /*background-position: center;*/
+    /*background-size: cover;*/
+    /*background-image: url('https://scontent.fmex6-1.fna.fbcdn.net/v/t31.0-8/28238807_1550851055010277_4466741072837683402_o.jpg?oh=39958904c11f1ad4fd1d29d30acbce0f&oe=5B1718D6');*/
+}
+.blog_img_large{
+    width:100%;
+    cursor: pointer;
+    flex-grow: 1;
+    margin: 10px 0px ;
+    height:300px;
+    overflow: hidden;
     background-position: center;
     background-size: cover;
-    background-image: url('https://scontent.fmex6-1.fna.fbcdn.net/v/t31.0-8/28238807_1550851055010277_4466741072837683402_o.jpg?oh=39958904c11f1ad4fd1d29d30acbce0f&oe=5B1718D6');
+    background-image: url('https://scontent.fmex5-1.fna.fbcdn.net/v/t1.0-9/28168368_1551183044977078_1546230237421158677_n.jpg?oh=b950be325daaca7f2a3947942bd53cf1&oe=5B1916FF');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog_img_large h3{
+    color:white;
+    font-size: 70px;
+}
+.blog_img img, .blog_img_large img{
+    width: 100%;
+    height:80%;
 }
 .cubierta{
     width:100%;
