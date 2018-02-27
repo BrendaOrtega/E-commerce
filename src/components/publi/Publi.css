@@ -1,0 +1,17 @@
+.recuadro{
+    background-color: #e3801b;
+    width:80%;
+    margin: 50px auto;
+    height:200px;
+    text-align: center;
+}
+.recuadro h3{
+    font-size: 400%;
+  color: white;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+.recuadro p{
+    color:white;
+    text-transform: uppercase;
+}

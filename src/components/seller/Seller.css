@@ -1,0 +1,39 @@
+.blog_img{
+    width:400px;
+    cursor: pointer;
+    flex-grow: 1;
+    margin: 10px 10px ;
+    height:300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://scontent.fmex6-1.fna.fbcdn.net/v/t31.0-8/28238807_1550851055010277_4466741072837683402_o.jpg?oh=39958904c11f1ad4fd1d29d30acbce0f&oe=5B1718D6');
+}
+.cubierta{
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,.3);
+    display: none;
+    transition: all 1s ease;
+}
+ .box_span{
+
+    color:white;
+    padding-top: 20%;
+    display: none;
+     transition: all 1s ease;
+}
+.box_spans{
+    color:white;
+    padding-top: 10%;
+    display: none;
+    transition: all 1s ease;
+}
+.blog_img:hover .cubierta{
+    display: inherit;
+    transition: all 1s ease;
+}
+
+.blog_img:hover .box_span, .box_spans{
+    display: inherit;
+    transition: all 1s ease;
+}

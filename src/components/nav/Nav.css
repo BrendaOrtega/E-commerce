@@ -1,0 +1,18 @@
+.box_nav{
+    width:70%;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.box_nav img{
+    width:200px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.owl-theme .item{
+    height:550px;
+}

@@ -1,0 +1,42 @@
+/*Categorias*/
+
+.urbana{
+    width:200px;
+    flex-grow: 1;
+    height:500px;
+    margin:10px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://scontent.fmex6-1.fna.fbcdn.net/v/t31.0-8/28238825_1550850961676953_7150945108500670221_o.jpg?oh=fde4626079d08c833794fa3acd8f37b3&oe=5B18303F');
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: pointer;
+}
+.urbana h3{
+    color:white;
+}
+.line_white{
+    background-color: white;
+    border:none;
+    width:0;
+    height:2px;
+    border-radius: 1px;
+
+    transition: all 1s ease;
+}
+
+.urbana:hover .line_white{
+    display: inherit;
+    width:100px;
+}
+.urbana:hover h3 {
+    font-size: 130%;
+}
+.destacados{
+    width: 80%;
+    margin: 0 auto;
+}
+.box_relevantes{
+    text-align: center;
+}
