@@ -1,0 +1,12 @@
+.urbano{
+    text-align: center;
+}
+
+.box_urbano div{
+    flex-grow: 1;
+    width:400px;
+}
+.box_urbano img{
+    width:80%;
+    margin: 0 auto;
+}

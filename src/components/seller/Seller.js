@@ -24,34 +24,6 @@ class Seller extends Component {
                         <p style={{textDecoration:"underline", fontSize:"12px", margin:"0"}}>Leer más...</p>
 
                     </div>
-
-                    {/*<div className="blog_img">*/}
-                        {/*<div className="cubierta">*/}
-                            {/*<div className="box_span">*/}
-                                {/*<FontAwesome name="shopping-bag" size="2x"/>*/}
-                                {/*<br/>*/}
-                                {/*<span><p>Discover our world of blue and lock <br/> down the jeans that work for you.</p></span>*/}
-                            {/*</div>*/}
-                        {/*</div>*/}
-                    {/*</div>*/}
-                    {/*<div className="blog_img">*/}
-                        {/*<div className="cubierta">*/}
-                            {/*<div className="box_span">*/}
-                                {/*<FontAwesome name="shopping-bag" size="2x"/>*/}
-                                {/*<br/>*/}
-                                {/*<span><p>Discover our world of blue and lock <br/> down the jeans that work for you.</p></span>*/}
-                            {/*</div>*/}
-                        {/*</div>*/}
-                    {/*</div>*/}
-                    {/*<div className="blog_img">*/}
-                        {/*<div className="cubierta">*/}
-                            {/*<div className="box_spans">*/}
-                                {/*<FontAwesome name="shopping-bag" size="2x"/>*/}
-                                {/*<br/>*/}
-                                {/*<span><p>Discover our world of blue and lock <br/> down the jeans that work for you.</p></span>*/}
-                            {/*</div>*/}
-                        {/*</div>*/}
-                    {/*</div>*/}
                 </div>
             </div>
         );
