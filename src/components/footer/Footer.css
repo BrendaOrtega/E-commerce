@@ -1,12 +1,15 @@
 .footer{
-    background-color: #453b3b;
+    background-color: #9e9e9e;
     width:100%;
     color:white;
     height:auto;
     padding-bottom: 10px;
 }
+.footer p{
+    font-size: 12px;
+}
 .redes span{
-    margin: 0 10px;
+    margin: 0 5px;
 }
 .linea{
     height:1px;

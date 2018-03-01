@@ -9,7 +9,7 @@ class Relevantes extends Component {
     render() {
         return (
             <div className="box_relevantes">
-                <h2>Más vendidos</h2>
+                <h2>YAKO TRENDS</h2>
                 <div className="destacados flex">
                     <Card />
                     <Card />

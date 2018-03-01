@@ -18,11 +18,11 @@ class Slide extends Component {
                     className="owl-theme"
                     loop margin={10} items={1} autoplay={true} nav={false}
                 >
-                    <div class="item"><img src="https://scontent.fmex6-1.fna.fbcdn.net/v/t31.0-8/28238862_1550835415011841_5904580611411321067_o.jpg?oh=7dd25a32612a3b954c47039f4017e3dd&oe=5B16DFAB" alt=""/></div>
-                    <div class="item"><img src="https://scontent.fmex6-1.fna.fbcdn.net/v/t31.0-8/28424408_1550835585011824_5397605594672573659_o.jpg?oh=3fda582bdc4f00944067c7a251abe133&oe=5B0C204D" alt=""/></div>
-                    <div class="item"><img src="https://scontent.fmex6-1.fna.fbcdn.net/v/t31.0-8/28424215_1550835465011836_3690738709987288401_o.jpg?oh=6f515fc3bb699c98efdcd0d208ca8d63&oe=5B0B3A32" alt=""/></div>
-                    <div class="item"><img src="https://scontent.fmex6-1.fna.fbcdn.net/v/t31.0-8/28516613_1550835811678468_4512410741186911594_o.jpg?oh=9de1e191edad59fbc5be705c33590109&oe=5B0A4B60" alt=""/></div>
-                
+                    <div class="item"><img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t31.0-8/28619416_1553863831375666_8068399721793726937_o.jpg?oh=ae3364869f762c9b6b03e6c14f616abe&oe=5B1500FA" alt=""/></div>
+                    <div class="item"><img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t31.0-8/28423119_1553863834708999_8084045171279792914_o.jpg?oh=0fbebe07cd8ff2d0c64fb4e23b7f5dc3&oe=5B462254" alt=""/></div>
+                    <div class="item"><img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t31.0-8/28337077_1553863828042333_3372838152335741476_o.jpg?oh=3ece3f493def67e025982b65a0178775&oe=5B0AF50F" alt=""/></div>
+                    <div class="item"><img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t31.0-8/28700841_1553863914708991_4307832786742561005_o.jpg?oh=55de691565d5e39726fd97004685765b&oe=5B3F9B2F" alt=""/></div>
+                    <div class="item"><img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t31.0-8/28424550_1553863924708990_153515074389511749_o.jpg?oh=949d5474149bdfc30b57f7475f83bc36&oe=5B017A1C" alt=""/></div>
                 </OwlCarousel>
             </div>
         );

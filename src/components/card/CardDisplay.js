@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css';
 import {Link} from 'react-router-dom';
 
-export const CardDisplay = ({}) => {
+export const CardDisplay = ({ img}) => {
 
     return (
         <div className="card ">

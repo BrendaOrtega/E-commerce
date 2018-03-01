@@ -1,3 +1,23 @@
+@font-face {
+  font-family: Millard;
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/MailartRubberstamp-Regular.otf');
+}
+@font-face {
+  font-family: Typer;
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/Typewriter.otf');
+}
+
+h1, h2, h3, h4{
+  font-family: Millard;
+}
+p, span, a{
+  font-family: Typer;
+}
+
 .App {
   text-align: center;
 }
