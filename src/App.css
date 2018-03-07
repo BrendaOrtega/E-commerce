@@ -11,13 +11,18 @@
   src: url('./assets/Typewriter.otf');
 }
 
+
+
 h1, h2, h3, h4{
   font-family: Millard;
+  text-transform: uppercase;
 }
-p, span, a{
+.text{
   font-family: Typer;
 }
-
+.av{
+  font-family: Avenir !important;
+}
 .App {
   text-align: center;
 }

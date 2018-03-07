@@ -18,32 +18,32 @@ class NavContainer extends Component {
                     <div className="flex pestanas">
 
                         <div className="dropdown">
-                            <button className="dropbtn"> <p>Sombreros</p></button>
-                            <div className="dropdown-content">
+                            <button className="dropbtn"> <h3>Sombreros</h3></button>
+                            <div className="dropdown-content av">
                                 <Link to="/">Texanas</Link>
                                 <Link  to="/">De palma</Link>
                                 <Link  to="/">Niños</Link>
                             </div>
                         </div>
                         <div className="dropdown">
-                            <button className="dropbtn"> <p>Botas</p></button>
-                            <div className="dropdown-content">
+                            <button className="dropbtn"> <h3>Botas</h3></button>
+                            <div className="dropdown-content av">
                                 <Link to="/">Hombre</Link>
                                 <Link  to="/">Mujer</Link>
                                 <Link  to="/">Niños</Link>
                             </div>
                         </div>
                         <div className="dropdown">
-                            <button className="dropbtn"> <p>Ropa</p></button>
-                            <div className="dropdown-content">
+                            <button className="dropbtn"> <h3>Ropa</h3></button>
+                            <div className="dropdown-content av">
                                 <Link to="/">Hombre</Link>
                                 <Link  to="/">Mujer</Link>
                                 <Link  to="/">Niños</Link>
                             </div>
                         </div>
                         <div className="dropdown">
-                            <button className="dropbtn"> <p>Accesorios</p></button>
-                            <div className="dropdown-content">
+                            <button className="dropbtn"> <h3>Accesorios</h3></button>
+                            <div className="dropdown-content av">
                                 <Link to="/">Gorras</Link>
                                 <Link to="/">Cintos</Link>
                                 <Link  to="/">Bolsas</Link>
@@ -55,8 +55,8 @@ class NavContainer extends Component {
                             </div>
                         </div>
                         <div className="dropdown">
-                            <button className="dropbtn"> <p>Para caballo</p></button>
-                            <div className="dropdown-content">
+                            <button className="dropbtn"> <h3>Para caballo</h3></button>
+                            <div className="dropdown-content av">
                                 <Link to="/">Espuelas/asicates/correones</Link>
                                 <Link to="/">Bocados/frenos</Link>
                                 <Link  to="/">Mantillas/Caronas/Sudaderas</Link>
@@ -72,8 +72,8 @@ class NavContainer extends Component {
                             </div>
                         </div>
                         <div className="dropdown">
-                            <button className="dropbtn"> <p>Marcas</p></button>
-                            <div className="dropdown-content">
+                            <button className="dropbtn"> <h3>Marcas</h3></button>
+                            <div className="dropdown-content av">
                                 <Link to="/">Ariat</Link>
                                 <Link to="/">Stetson</Link>
                                 <Link  to="/">Resistol</Link>
@@ -85,7 +85,7 @@ class NavContainer extends Component {
                         </div>
 
                         <Link to="/">
-                            <p>Blog</p>
+                            <h3>Blog</h3>
                         </Link>
 
                     </div>

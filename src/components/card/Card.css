@@ -3,7 +3,6 @@
 .card{
     width:200px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
 
 }
 .card img{
@@ -16,4 +15,7 @@ a{
 }
 .card h3{
     font-size: 15px;
+}
+.card p{
+    font-family: Avenir;
 }

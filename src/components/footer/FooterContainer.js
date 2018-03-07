@@ -9,7 +9,7 @@ class FooterContainer extends Component {
     render() {
         return (
             <div className="footer">
-                <div style={{width:"80%", margin:"50px auto"}}>
+                <div style={{width:"80%", margin:"0px auto"}}>
                     <div className="flex">
                         <div>
                             <h3>Yako</h3>

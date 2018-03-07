@@ -13,17 +13,16 @@
     cursor: pointer;
     flex-grow: 1;
     margin: 10px 0px ;
-    height:300px;
+    height:200px;
     overflow: hidden;
     background-position: center;
     background-size: cover;
-    background-image: url('https://scontent.fmex5-1.fna.fbcdn.net/v/t1.0-9/28168368_1551183044977078_1546230237421158677_n.jpg?oh=b950be325daaca7f2a3947942bd53cf1&oe=5B1916FF');
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .blog_img_large h3{
-    color:white;
+
     font-size: 70px;
 }
 .blog_img img, .blog_img_large img{
@@ -58,4 +57,7 @@
 .blog_img:hover .box_span, .box_spans{
     display: inherit;
     transition: all 1s ease;
+}
+.justify{
+    text-align: justify;
 }
