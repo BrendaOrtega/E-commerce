@@ -17,9 +17,7 @@
     overflow: hidden;
     background-position: center;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 .blog_img_large h3{
 

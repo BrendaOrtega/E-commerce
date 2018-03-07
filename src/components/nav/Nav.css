@@ -3,16 +3,17 @@
     position: fixed;
     background-color: white;
     z-index: 9999;
+    padding-bottom: 10px;
 }
 .box_nav{
     width:70%;
     margin:0 auto;
     text-align: center;
     margin-top: 20px;
-
 }
 .box_nav img{
     width:200px;
+    margin: 0px 0 15px 0;
 }
 .flex{
     display: flex;
@@ -35,10 +36,11 @@
 .dropbtn {
     background-color: transparent;
     height:100%;
-    width:60px;
+    width:100%;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    text-align: center;
 }
 
 /* Dropdown Content (Hidden by Default) */

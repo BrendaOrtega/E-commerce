@@ -1,24 +1,92 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import { Menu, Icon } from 'antd';
+const SubMenu = Menu.SubMenu;
+const MenuItemGroup = Menu.ItemGroup;
 
 export const CatalogoDisplay = ({}) => {
-
+    // handleClick = (e) => {
+    //     console.log('click ', e);
+    // }
     return (
-        <div className="urbano">
-            <h2>Urbano</h2>
-            <div className="flex box_urbano" style={{width:"80%", margin:"50px auto", textAlign:"center"}}>
-                <div>
-                    <img src="https://scontent.fmex6-1.fna.fbcdn.net/v/t1.0-9/28276392_1551183131643736_7121110285937348855_n.jpg?oh=ba6d5d9c729e9cd421ca10d7848e6e3c&oe=5B4C553E" alt=""/>
-                </div>
-                <div>
-                    <h3>The city with a touch of the horseworld.</h3>
-                    <p>La ciudad con un toque del mundo del caballo.</p>
-                    <Link to="" style={{textDecoration:"underline", color:"#e3801b"}}>
-                        <span>Leer más...</span>
-                    </Link>
-                </div>
+        <div className="flex box_cat">
+            <div className="cat_menu">
+                <Menu
+                    onClick={this.handleClick}
+                    style={{ width: 256 }}
+                    defaultSelectedKeys={['1']}
+                    defaultOpenKeys={['sub1']}
+                    mode="inline"
+                >
+                    <SubMenu key="sub1" title={<span><Icon type="mail" /><span>Moods</span></span>}>
+                            <Menu.Item key="1">Urbano</Menu.Item>
+                            <Menu.Item key="2">Western</Menu.Item>
+                            <Menu.Item key="3">Regionales</Menu.Item>
+                            <Menu.Item key="4">Europeo</Menu.Item>
+                    </SubMenu>
+                    <SubMenu key="sub2" title={<span><Icon type="appstore" /><span>Material</span></span>}>
+                        <Menu.Item key="5">Palma</Menu.Item>
+                        <Menu.Item key="6">Paja</Menu.Item>
+                        <Menu.Item key="7">Lona</Menu.Item>
+                        <Menu.Item key="8">Castor</Menu.Item>
+                        <Menu.Item key="9">Nylon</Menu.Item>
+                        <Menu.Item key="10">Poliester</Menu.Item>
+                        <Menu.Item key="11">Piel</Menu.Item>
+                        <Menu.Item key="12">Lana</Menu.Item>
+                        <Menu.Item key="13">Fieltro</Menu.Item>
+                        <Menu.Item key="14">Fieltro de Lana</Menu.Item>
+                        <Menu.Item key="15">Fibras Naturales</Menu.Item>
+                        <Menu.Item key="16">Lino</Menu.Item>
+                    </SubMenu>
+                    <SubMenu key="sub4" title={<span><Icon type="setting" /><span>Número de X</span></span>}>
+                        <Menu.Item key="17">4x</Menu.Item>
+                        <Menu.Item key="18">6x</Menu.Item>
+                        <Menu.Item key="19">10x</Menu.Item>
+                        <Menu.Item key="20">11x</Menu.Item>
+                    </SubMenu>
+
+                    <SubMenu key="sub5" title={<span><Icon type="setting" /><span>Hormas</span></span>}>
+                        <Menu.Item key="21">Marlboro</Menu.Item>
+                        <Menu.Item key="22">Rodeo</Menu.Item>
+                        <Menu.Item key="23">Pro Rodeo</Menu.Item>
+                        <Menu.Item key="24">Maverick</Menu.Item>
+                        <Menu.Item key="25">Taco</Menu.Item>
+                        <Menu.Item key="26">Ultimate</Menu.Item>
+                        <Menu.Item key="27">Este-Oeste</Menu.Item>
+                        <Menu.Item key="28">Denver</Menu.Item>
+                        <Menu.Item key="29">8 Segundos</Menu.Item>
+                        <Menu.Item key="30">Cowboy</Menu.Item>
+                        <Menu.Item key="31">Larry</Menu.Item>
+                        <Menu.Item key="32">Cassidy</Menu.Item>
+                        <Menu.Item key="33">Chaparral</Menu.Item>
+                        <Menu.Item key="34">Roper</Menu.Item>
+                        <Menu.Item key="35">Texas</Menu.Item>
+                        <Menu.Item key="36">1951</Menu.Item>
+                    </SubMenu>
+                    <SubMenu key="sub6" title={<span><Icon type="setting" /><span>Estilo</span></span>}>
+                        <Menu.Item key="37">Vestir/Etiqueta</Menu.Item>
+                        <Menu.Item key="38">Casual</Menu.Item>
+                        <Menu.Item key="39">Vaqueros</Menu.Item>
+                        <Menu.Item key="39">Viajero</Menu.Item>
+                        <Menu.Item key="40">Deportivos</Menu.Item>
+                        <Menu.Item key="41">Exóticos</Menu.Item>
+                        <Menu.Item key="42">Trilby (a la corta)</Menu.Item>
+                        <Menu.Item key="43">Player</Menu.Item>
+                        <Menu.Item key="44">Porkpie</Menu.Item>
+                        <Menu.Item key="45">Fedora</Menu.Item>
+                        <Menu.Item key="46">Bombin</Menu.Item>
+                        <Menu.Item key="47">Capelina</Menu.Item>
+                        <Menu.Item key="48">Cloche</Menu.Item>
+                        <Menu.Item key="48">Canotier</Menu.Item>
+                    </SubMenu>
+
+                </Menu>
+
             </div>
+            <div className="cat_product">
+
+            </div>
+
         </div>
     );
 };

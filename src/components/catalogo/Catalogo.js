@@ -12,7 +12,7 @@ class Catalogo extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="catalogo">
                 <CatalogoDisplay />
             </div>
         );
