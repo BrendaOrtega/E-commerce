@@ -12,7 +12,7 @@ class NavContainer extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="nav_fix">
                 <div className="box_nav">
                     <img src="http://www.stetson.com/store/skin/frontend/base17/stetson/images/logo.svg" alt=""/>
                     <div className="flex pestanas">

@@ -2,7 +2,7 @@
  * Created by brendaortega on 26/02/18.
  */
 import React, {Component} from 'react';
-import './.css';
+import './Catalogo.css';
 import {CatalogoDisplay} from './CatalogoDisplay';
 
 class Catalogo extends Component {

@@ -1,8 +1,15 @@
+.nav_fix{
+    width:100%;
+    position: fixed;
+    background-color: white;
+    z-index: 9999;
+}
 .box_nav{
     width:70%;
     margin:0 auto;
     text-align: center;
     margin-top: 20px;
+
 }
 .box_nav img{
     width:200px;
@@ -14,7 +21,7 @@
     align-items: center;
 }
 .owl-theme .item{
-    height:500px;
+    height:640px;
 }
 .pestanas a{
     cursor: pointer;

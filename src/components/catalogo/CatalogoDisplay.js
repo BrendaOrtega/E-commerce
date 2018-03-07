@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 
-export const UrbanoDisplay = ({}) => {
+export const CatalogoDisplay = ({}) => {
 
     return (
         <div className="urbano">
