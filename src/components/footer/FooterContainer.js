@@ -12,19 +12,19 @@ class FooterContainer extends Component {
                 <div style={{width:"80%", margin:"0px auto"}}>
                     <div className="flex">
                         <div>
-                            <h3>Yako</h3>
+                            <h3 style={{color:"white"}}>Yako</h3>
                             <p>Sobre Yako</p>
                             <p>Preguntas Frecuentes</p>
                             <p>Contactanos</p>
                         </div>
                         <div>
-                            <h3>Ayuda</h3>
+                            <h3 style={{color:"white"}}>Ayuda</h3>
                             <p>Políticas y Devoluciones</p>
                             <p>Formas de Pago</p>
                             <p>Guía de Tallas</p>
                         </div>
                         <div className="redes">
-                            <h3>Nuestras redes</h3>
+                            <h3 style={{color:"white"}}>Nuestras redes</h3>
                             <FontAwesome name="facebook-square" size="2x" />
                             <FontAwesome name="twitter-square" size="2x"/>
                             <FontAwesome name="instagram" size="2x"/>

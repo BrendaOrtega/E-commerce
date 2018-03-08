@@ -1,15 +1,16 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import { Menu, Icon } from 'antd';
+import {CardDisplay} from '../card/CardDisplay';
 const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup;
+
 
 export const CatalogoDisplay = ({}) => {
     // handleClick = (e) => {
     //     console.log('click ', e);
     // }
     return (
-        <div className="flex box_cat">
+        <div className="fl box_cat">
             <div className="cat_menu">
                 <Menu
                     onClick={this.handleClick}
@@ -18,7 +19,7 @@ export const CatalogoDisplay = ({}) => {
                     defaultOpenKeys={['sub1']}
                     mode="inline"
                 >
-                    <SubMenu key="sub1" title={<span><Icon type="mail" /><span>Moods</span></span>}>
+                    <SubMenu key="sub1" title={<span><Icon type="dingding" /><span>Moods</span></span>}>
                             <Menu.Item key="1">Urbano</Menu.Item>
                             <Menu.Item key="2">Western</Menu.Item>
                             <Menu.Item key="3">Regionales</Menu.Item>
@@ -38,14 +39,14 @@ export const CatalogoDisplay = ({}) => {
                         <Menu.Item key="15">Fibras Naturales</Menu.Item>
                         <Menu.Item key="16">Lino</Menu.Item>
                     </SubMenu>
-                    <SubMenu key="sub4" title={<span><Icon type="setting" /><span>Número de X</span></span>}>
+                    <SubMenu key="sub4" title={<span><Icon type="slack" /><span>Número de X</span></span>}>
                         <Menu.Item key="17">4x</Menu.Item>
                         <Menu.Item key="18">6x</Menu.Item>
                         <Menu.Item key="19">10x</Menu.Item>
                         <Menu.Item key="20">11x</Menu.Item>
                     </SubMenu>
 
-                    <SubMenu key="sub5" title={<span><Icon type="setting" /><span>Hormas</span></span>}>
+                    <SubMenu key="sub5" title={<span><Icon type="pushpin" /><span>Hormas</span></span>}>
                         <Menu.Item key="21">Marlboro</Menu.Item>
                         <Menu.Item key="22">Rodeo</Menu.Item>
                         <Menu.Item key="23">Pro Rodeo</Menu.Item>
@@ -84,7 +85,16 @@ export const CatalogoDisplay = ({}) => {
 
             </div>
             <div className="cat_product">
-
+                <div className="prod flex">
+                    <CardDisplay img="http://d3b962r9eea4ib.cloudfront.net/magento-84397813/8/1733/34c64e8911b8f8eff21cdb3b181977e548821aaea99bc35d42281b327a2548e8a/A" />
+                    <CardDisplay img="http://www.ariat.com/dw/image/v2/AAML_PRD/on/demandware.static/-/Sites-ARIAT/default/dw8c456871/images/zoom/10023133_3-4_front.jpg?sw=680&sh=680" />
+                    <CardDisplay img="http://d3b962r9eea4ib.cloudfront.net/magento-84397813/8/1743/0e293772b0dab658512d3428d1da2c55659193d19016c4790d13dc10c79ee0b9a/A"/>
+                    <CardDisplay img="http://www.ariat.com/dw/image/v2/AAML_PRD/on/demandware.static/-/Sites-ARIAT/default/dw89dfc4b7/images/zoom/10018693_3-4_front.jpg?sw=680&sh=680"/>
+                    <CardDisplay img="http://d3b962r9eea4ib.cloudfront.net/magento-84397813/8/1733/34c64e8911b8f8eff21cdb3b181977e548821aaea99bc35d42281b327a2548e8a/A" />
+                    <CardDisplay img="http://www.ariat.com/dw/image/v2/AAML_PRD/on/demandware.static/-/Sites-ARIAT/default/dw8c456871/images/zoom/10023133_3-4_front.jpg?sw=680&sh=680" />
+                    <CardDisplay img="http://d3b962r9eea4ib.cloudfront.net/magento-84397813/8/1743/0e293772b0dab658512d3428d1da2c55659193d19016c4790d13dc10c79ee0b9a/A"/>
+                    <CardDisplay img="http://www.ariat.com/dw/image/v2/AAML_PRD/on/demandware.static/-/Sites-ARIAT/default/dw89dfc4b7/images/zoom/10018693_3-4_front.jpg?sw=680&sh=680"/>
+                </div>
             </div>
 
         </div>

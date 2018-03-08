@@ -14,12 +14,15 @@ class NavContainer extends Component {
         return (
             <div className="nav_fix">
                 <div className="box_nav">
-                    <img src="http://www.stetson.com/store/skin/frontend/base17/stetson/images/logo.svg" alt=""/>
-                    <div className="flex pestanas">
+                    <Link to="/">
+                        <img src="http://www.stetson.com/store/skin/frontend/base17/stetson/images/logo.svg" alt=""/>
+                    </Link>
+                        <div className="flex pestanas">
 
                         <div className="dropdown">
                             <button className="dropbtn"> <h3>Sombreros</h3></button>
                             <div className="dropdown-content av">
+                                <Link to="/catalogo">Todo</Link>
                                 <Link to="/">Texanas</Link>
                                 <Link  to="/">De palma</Link>
                                 <Link  to="/">Niños</Link>
@@ -28,6 +31,7 @@ class NavContainer extends Component {
                         <div className="dropdown">
                             <button className="dropbtn"> <h3>Botas</h3></button>
                             <div className="dropdown-content av">
+                                <Link to="/">Todo</Link>
                                 <Link to="/">Hombre</Link>
                                 <Link  to="/">Mujer</Link>
                                 <Link  to="/">Niños</Link>
@@ -36,6 +40,7 @@ class NavContainer extends Component {
                         <div className="dropdown">
                             <button className="dropbtn"> <h3>Ropa</h3></button>
                             <div className="dropdown-content av">
+                                <Link to="/">Todo</Link>
                                 <Link to="/">Hombre</Link>
                                 <Link  to="/">Mujer</Link>
                                 <Link  to="/">Niños</Link>
@@ -44,6 +49,7 @@ class NavContainer extends Component {
                         <div className="dropdown">
                             <button className="dropbtn"> <h3>Accesorios</h3></button>
                             <div className="dropdown-content av">
+                                <Link to="/">Todo</Link>
                                 <Link to="/">Gorras</Link>
                                 <Link to="/">Cintos</Link>
                                 <Link  to="/">Bolsas</Link>
@@ -57,6 +63,7 @@ class NavContainer extends Component {
                         <div className="dropdown">
                             <button className="dropbtn"> <h3>Para caballo</h3></button>
                             <div className="dropdown-content av">
+                                <Link to="/">Todo</Link>
                                 <Link to="/">Espuelas/asicates/correones</Link>
                                 <Link to="/">Bocados/frenos</Link>
                                 <Link  to="/">Mantillas/Caronas/Sudaderas</Link>
@@ -74,6 +81,7 @@ class NavContainer extends Component {
                         <div className="dropdown">
                             <button className="dropbtn"> <h3>Marcas</h3></button>
                             <div className="dropdown-content av">
+                                <Link to="/">Todo</Link>
                                 <Link to="/">Ariat</Link>
                                 <Link to="/">Stetson</Link>
                                 <Link  to="/">Resistol</Link>
@@ -84,9 +92,14 @@ class NavContainer extends Component {
                             </div>
                         </div>
 
-                        <Link to="/">
-                            <h3>Blog</h3>
-                        </Link>
+                        <div className="dropdown">
+                            <button className="dropbtn"> <h3>Blog</h3></button>
+                            <div className="dropdown-content av">
+                                <Link to="/">Todo</Link>
+                                <Link to="/">Entrevistas</Link>
+                                <Link to="/">Artículos</Link>
+                            </div>
+                        </div>
 
                     </div>
                 </div>

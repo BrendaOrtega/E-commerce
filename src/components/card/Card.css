@@ -3,6 +3,7 @@
 .card{
     width:200px;
     text-align: center;
+    flex-grow: 1;
 
 }
 .card img{

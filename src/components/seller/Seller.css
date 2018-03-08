@@ -13,7 +13,7 @@
     cursor: pointer;
     flex-grow: 1;
     margin: 10px 0px ;
-    height:200px;
+
     overflow: hidden;
     background-position: center;
     background-size: cover;
@@ -21,11 +21,14 @@
 }
 .blog_img_large h3{
 
-    font-size: 70px;
+    font-size: 30px;
 }
 .blog_img img, .blog_img_large img{
     width: 100%;
     height:80%;
+}
+.blog_img h3{
+    margin:20px 0 20px 0;
 }
 .cubierta{
     width:100%;

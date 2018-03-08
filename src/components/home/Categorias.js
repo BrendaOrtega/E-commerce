@@ -29,7 +29,7 @@ class Categorias extends Component {
                     </div>
                     <div className="urbana" style={{backgroundImage:`url("https://scontent-dfw5-1.xx.fbcdn.net/v/t31.0-8/28423296_1553875311374518_389312772128215882_o.jpg?oh=6acfd0ff7a2368bde0f710dc79f4b5cd&oe=5B0A4AF6")`}}>
                         <div style={{marginBottom:"20px"}}>
-                            <h3>Ecuestre</h3>
+                            <h3>Europeo</h3>
                             <hr className="line_white"/>
                             <p className="trans text">THE ROYAL STYLE IN THE EVERYDAY EQUESTRIAN</p>
                             <p className="trans sub text">El estilo real en el día a día de un equitador</p>
