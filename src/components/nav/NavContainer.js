@@ -15,17 +15,21 @@ class NavContainer extends Component {
         return (
             <div className="nav_fix">
                 <div className="box_nav">
-                    <div className="nav_superior flex">
-                        <label>
+                    <div className="nav_superior fle">
+                        <label className="bx search" style={{textAlign:"left"}}>
                             <input type="text" name="name" placeholder="Buscar"/>
                             <FontAwesome name="search" />
                         </label>
-                        <Link to="/">
-                            <img src="http://www.stetson.com/store/skin/frontend/base17/stetson/images/logo.svg" alt=""/>
-                        </Link>
-                        <div>
-                            <span>Mi cuenta</span>
-                            <span><FontAwesome name="shopping-cart" /></span>
+                        <span className="bx">
+                            <Link to="/">
+                                <img src="http://www.stetson.com/store/skin/frontend/base17/stetson/images/logo.svg" alt=""/>
+                            </Link>
+                        </span>
+                        <div className="user_nav bx" style={{textAlign:"right"}}>
+                            <Link to="/perfil">
+                                <span>Mi cuenta</span>
+                            </Link>
+                                <span><FontAwesome name="shopping-cart" /></span>
                         </div>
                     </div>
                         <div className="flex pestanas">

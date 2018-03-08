@@ -73,11 +73,36 @@
     display: block;
 }
 .nav_superior{
+    width: 90%;
+    margin: 0 auto;
     margin-bottom: 30px;
     margin-top: -20px;
 }
+.fle{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.bx{
+    width:100px;
+    flex-grow: 1;
+}
 .nav_superior input{
     border: none;
+    width:150px;
+    margin-left: -25px;
     border-bottom: 1px solid #e0e0e0 ;
+}
+.search span{
+    cursor: pointer;
+}
+.nav_superior input:selection{
+    color:transparent;
+    border-color: inherit;
+}
+.user_nav span{
+    margin: 0 5px;
+    font-size: 17px;
 }
 

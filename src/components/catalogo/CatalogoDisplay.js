@@ -11,7 +11,7 @@ export const CatalogoDisplay = ({}) => {
     // }
     return (
         <div className="fl box_cat">
-            <div className="cat_menu">
+            <div className="cat_menu menu">
                 <Menu
                     onClick={this.handleClick}
                     style={{ width: 256 }}

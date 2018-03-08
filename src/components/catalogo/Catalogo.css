@@ -3,10 +3,11 @@
     margin: 0 auto;
 }
 .box_cat{
-    padding: 100px 0;
+    padding: 120px 0;
 }
 .cat_menu{
     margin: 20px 0;
+
 }
 .ant-menu-item-selected {
     color: rgba(0, 0, 0, 0.65);
@@ -37,15 +38,17 @@
      background: linear-gradient(to right,  #e3801b, #e3801b);
 }
 .cat_menu{
-    width:100px;
-    flex-grow: 1;
-    display: block;
+    width:255px;
+ 
     background-color: white;
 }
 .cat_product{
     width:500px;
     flex-grow: 2;
 
+}
+.menu{
+    display: block;
 }
 .prod{
     width: 100%;

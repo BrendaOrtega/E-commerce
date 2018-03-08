@@ -10,7 +10,7 @@ class FooterContainer extends Component {
         return (
             <div className="footer">
                 <div style={{width:"80%", margin:"0px auto"}}>
-                    <div className="flex">
+                    <div style={{display:"flex", flexWrap:"wrap", justifyContent:"space-between"}}>
                         <div>
                             <h3 style={{color:"white"}}>Yako</h3>
                             <p>Sobre Yako</p>
