@@ -13,7 +13,7 @@
 }
 .box_nav img{
     width:200px;
-    margin: 0px 0 15px 0;
+    margin: 20px 0 15px 0;
 }
 .flex{
     display: flex;
@@ -71,5 +71,13 @@
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+.nav_superior{
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+.nav_superior input{
+    border: none;
+    border-bottom: 1px solid #e0e0e0 ;
 }
 

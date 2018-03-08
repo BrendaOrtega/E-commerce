@@ -4,6 +4,7 @@
 import React, {Component} from 'react';
 import './Nav.css';
 import {Link} from 'react-router-dom';
+import FontAwesome from 'react-fontawesome';
 
 class NavContainer extends Component {
 
@@ -14,9 +15,19 @@ class NavContainer extends Component {
         return (
             <div className="nav_fix">
                 <div className="box_nav">
-                    <Link to="/">
-                        <img src="http://www.stetson.com/store/skin/frontend/base17/stetson/images/logo.svg" alt=""/>
-                    </Link>
+                    <div className="nav_superior flex">
+                        <label>
+                            <input type="text" name="name" placeholder="Buscar"/>
+                            <FontAwesome name="search" />
+                        </label>
+                        <Link to="/">
+                            <img src="http://www.stetson.com/store/skin/frontend/base17/stetson/images/logo.svg" alt=""/>
+                        </Link>
+                        <div>
+                            <span>Mi cuenta</span>
+                            <span><FontAwesome name="shopping-cart" /></span>
+                        </div>
+                    </div>
                         <div className="flex pestanas">
 
                         <div className="dropdown">
