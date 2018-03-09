@@ -22,7 +22,7 @@ class NavContainer extends Component {
                         </label>
                         <span className="bx">
                             <Link to="/">
-                                <img src="http://www.stetson.com/store/skin/frontend/base17/stetson/images/logo.svg" alt=""/>
+                                <h1 className="log" style={{color:"#e3801b", marginTop:"20px"}}>YAKO HORSEWORLD</h1>
                             </Link>
                         </span>
                         <div className="user_nav bx" style={{textAlign:"right"}}>

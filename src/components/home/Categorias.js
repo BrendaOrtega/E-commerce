@@ -27,7 +27,7 @@ class Categorias extends Component {
                             <p className="trans sub text">El moderno pero clásico estilo vaquero</p>
                         </div>
                     </div>
-                    <div className="urbana" style={{backgroundImage:`url("https://scontent-dfw5-1.xx.fbcdn.net/v/t31.0-8/28423296_1553875311374518_389312772128215882_o.jpg?oh=6acfd0ff7a2368bde0f710dc79f4b5cd&oe=5B0A4AF6")`}}>
+                    <div className="urbana" style={{backgroundImage:`url("https://scontent-dfw5-1.xx.fbcdn.net/v/t31.0-8/28423491_1553875374707845_239192590176286401_o.jpg?oh=2baf32815db4d0a29ba49612152605b9&oe=5B04DE54")`}}>
                         <div style={{marginBottom:"20px"}}>
                             <h3>Europeo</h3>
                             <hr className="line_white"/>
@@ -35,7 +35,7 @@ class Categorias extends Component {
                             <p className="trans sub text">El estilo real en el día a día de un equitador</p>
                         </div>
                     </div>
-                    <div className="urbana" style={{backgroundImage:`url("https://scontent-dfw5-1.xx.fbcdn.net/v/t31.0-8/28423491_1553875374707845_239192590176286401_o.jpg?oh=2baf32815db4d0a29ba49612152605b9&oe=5B04DE54")`}}>
+                    <div className="urbana" style={{backgroundImage:`url("https://scontent-dfw5-1.xx.fbcdn.net/v/t31.0-8/28423296_1553875311374518_389312772128215882_o.jpg?oh=6acfd0ff7a2368bde0f710dc79f4b5cd&oe=5B0A4AF6")`}}>
                         <div style={{marginBottom:"20px"}}>
                             <h3>Regional</h3>
                             <hr className="line_white"/>

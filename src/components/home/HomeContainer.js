@@ -21,8 +21,8 @@ class HomeContainer extends Component {
             <div>
                 <Slide />
                 <Categorias />
-                <Publi />
                 <Relevantes />
+                <Publi />
                 <Galeria />
                 <Video />
                 <Seller />
