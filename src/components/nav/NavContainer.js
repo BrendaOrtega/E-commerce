@@ -5,6 +5,7 @@ import React, {Component} from 'react';
 import './Nav.css';
 import {Link} from 'react-router-dom';
 import FontAwesome from 'react-fontawesome';
+import logo from '../../assets/yako.png';
 
 class NavContainer extends Component {
 
@@ -22,7 +23,7 @@ class NavContainer extends Component {
                         </label>
                         <span className="bx">
                             <Link to="/">
-                                <h1 className="log" style={{color:"#e3801b", marginTop:"20px"}}>YAKO HORSEWORLD</h1>
+                                <img src={logo} alt=""/>
                             </Link>
                         </span>
                         <div className="user_nav bx" style={{textAlign:"right"}}>

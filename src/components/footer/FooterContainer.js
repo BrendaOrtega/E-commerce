@@ -4,6 +4,7 @@
 import React, {Component} from 'react';
 import './Footer.css';
 import FontAwesome from 'react-fontawesome';
+import logoy from '../../assets/logoY.png';
 
 class FooterContainer extends Component {
     render() {
@@ -24,6 +25,7 @@ class FooterContainer extends Component {
                             <p>Guía de Tallas</p>
                         </div>
                         <div className="redes">
+                            <img className="logo_y" src={logoy} alt=""/>
                             <h3 style={{color:"white"}}>Nuestras redes</h3>
                             <FontAwesome name="facebook-square" size="2x" />
                             <FontAwesome name="twitter-square" size="2x"/>
