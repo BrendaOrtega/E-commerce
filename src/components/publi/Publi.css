@@ -1,5 +1,7 @@
 .recuadro{
-    background-color: #e3801b;
+    background-image: url(../../assets/PROMO.jpg);
+    background-size: cover;
+    background-position: center;
     width:80%;
     margin: 50px auto;
     height:170px;

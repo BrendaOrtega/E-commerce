@@ -9,6 +9,7 @@ class Categorias extends Component {
     render() {
         return (
             <div style={{width:"80%", margin:"50px auto", textAlign:"center"}}>
+                <p className="prox"> "PROXIMAMENTE NUESTRA TIENDA EN LINEA"</p>
                 <h2>YAKO MOODS</h2>
                 <div className="flex centro">
                     <div className="urbana" style={{backgroundImage:`url("https://scontent-dfw5-1.xx.fbcdn.net/v/t31.0-8/28424647_1553875294707853_7784804214084292327_o.jpg?oh=e3253e9899897a363656289e69f848bf&oe=5B0A6A9D")`}}>

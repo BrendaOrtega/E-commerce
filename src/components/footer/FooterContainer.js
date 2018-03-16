@@ -4,7 +4,8 @@
 import React, {Component} from 'react';
 import './Footer.css';
 import FontAwesome from 'react-fontawesome';
-import logoy from '../../assets/logoY.png';
+import logoy from '../../assets/logoYfooter.png';
+import {Link} from 'react-router-dom';
 
 class FooterContainer extends Component {
     render() {
@@ -14,22 +15,36 @@ class FooterContainer extends Component {
                     <div style={{display:"flex", flexWrap:"wrap", justifyContent:"space-between"}}>
                         <div>
                             <h3 style={{color:"white"}}>Yako</h3>
-                            <p>Sobre Yako</p>
-                            <p>Preguntas Frecuentes</p>
-                            <p>Contactanos</p>
+                            <Link to="/yako">
+                                <p>Sobre Yako</p>
+                            </Link>
+                            <Link to="/preguntas-frecuentes">
+                                <p>Preguntas Frecuentes</p>
+                            </Link>
+                            <Link to="/contacto">
+                                <p>Contactanos</p>
+                            </Link>
                         </div>
                         <div>
                             <h3 style={{color:"white"}}>Ayuda</h3>
-                            <p>Políticas y Devoluciones</p>
-                            <p>Formas de Pago</p>
+                            <Link to="/politicas-de-privacidad" >
+                                <p>Políticas de Privacidad</p>
+                            </Link>
+                            <Link to="formas-de-pago">
+                                <p>Formas de Pago</p>
+                            </Link>
                             <p>Guía de Tallas</p>
                         </div>
                         <div className="redes">
-                            <img className="logo_y" src={logoy} alt=""/>
+
                             <h3 style={{color:"white"}}>Nuestras redes</h3>
                             <FontAwesome name="facebook-square" size="2x" />
                             <FontAwesome name="twitter-square" size="2x"/>
                             <FontAwesome name="instagram" size="2x"/>
+                            <FontAwesome name="youtube" size="2x"/>
+                        </div>
+                        <div>
+                            <img className="logo_y" src={logoy} alt=""/>
                         </div>
                     </div>
                     <hr className="linea"/>
