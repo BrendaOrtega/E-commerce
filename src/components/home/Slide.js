@@ -14,7 +14,7 @@ class Slide extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="slide">
                 <div>
                     <Carousel autoplay>
                         <div>
