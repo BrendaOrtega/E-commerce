@@ -12,7 +12,8 @@ class Seller extends Component {
                 </div>
                 <div className="flex">
                     <div  className="blog_img maruno">
-                        <img src="https://scontent.fmex5-1.fna.fbcdn.net/v/t1.0-9/28471863_1551183054977077_4787599912348101153_n.jpg?oh=7249b27d68b0533aef51fe0e122f448c&oe=5B0669F2" alt=""/>
+                        <div className="noti" style={{backgroundImage:`url("https://scontent.fmex5-1.fna.fbcdn.net/v/t1.0-9/28471863_1551183054977077_4787599912348101153_n.jpg?oh=7249b27d68b0533aef51fe0e122f448c&oe=5B0669F2")`}}>
+                        </div>
                         <h3>Las diferentes hormas de sombreros</h3>
                         <p className="av justify">Hay que hacer una pequeña diferenciación entre el sombrero de ceremonia o el
                             tocado con el sombrero de diario, menos formal y menos integrado con el vestuario.
@@ -22,7 +23,8 @@ class Seller extends Component {
 
                     </div>
                     <div className="blog_img mardos" >
-                        <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/28379187_1553934564701926_3624079076517426893_n.jpg?oh=6d24452ebe52abf1564a531cc8973430&oe=5B068858" alt=""/>
+                        <div className="noti" style={{backgroundImage:`url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/28379187_1553934564701926_3624079076517426893_n.jpg?oh=6d24452ebe52abf1564a531cc8973430&oe=5B068858")`}}>
+                        </div>
                         <h3>Entrevista con Beto Pena y sus caballos </h3>
                         <p className="av justify">Hay que hacer una pequeña diferenciación entre el sombrero de ceremonia o el
                             tocado con el sombrero de diario, menos formal y menos integrado con el vestuario.

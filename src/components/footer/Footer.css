@@ -61,3 +61,6 @@ a:hover{
         margin-top: 40px;
     }
 }
+@media(max-width: 650px){
+    .logo_y{display: none}
+}

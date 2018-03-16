@@ -22,9 +22,11 @@
 
     font-size: 30px;
 }
-.blog_img img{
+.noti{
     width: 100%;
     height:300px;
+    background-size: cover;
+    background-position: center;
 }
 .blog_img h3{
     margin:20px 0 20px 0;
