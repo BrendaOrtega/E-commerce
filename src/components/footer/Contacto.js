@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Footer.css';
 import FontAwesome from 'react-fontawesome';
-
+import {Link} from 'react-router-dom';
 
 class Contacto extends Component {
     componentDidMount () {
@@ -22,10 +22,18 @@ class Contacto extends Component {
                             <p>33 333 33 33</p>
 
                             <p >Nuestras redes</p>
-                            <FontAwesome name="facebook-square" size="2x" />
-                            <FontAwesome name="twitter-square" size="2x"/>
-                            <FontAwesome name="instagram" size="2x"/>
-                            <FontAwesome name="youtube" size="2x"/>
+                            <Link  to="https://www.facebook.com/yakohw/" target="_blank">
+                                <FontAwesome name="facebook-square" size="2x" />
+                            </Link>
+                            <Link to="https://twitter.com/YakoHorseworld" target="_blank">
+                                <FontAwesome name="twitter-square" size="2x"/>
+                            </Link>
+                            <Link to="https://www.instagram.com/yakohw/?hl=es-la" target="_blank">
+                                <FontAwesome name="instagram" size="2x"/>
+                            </Link>
+                            <Link to="" target="_blank">
+                                <FontAwesome name="youtube" size="2x"/>
+                            </Link>
                         </div>
                     </div>
                 </div>

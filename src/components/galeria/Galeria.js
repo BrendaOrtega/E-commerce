@@ -7,8 +7,7 @@ class Galeria extends Component {
             <div className="box_galeria">
                 <div style={{width:"80%", margin:"0px auto", textAlign:"center", padding:"50px 0"}}>
                     <h2>@yakohorseworld</h2>
-                    <p className="text">TAG #YAKOHORSEWORLD AND #YH IN YOUR PHOTOS FOR A CHANCE
-                        TO GET FEATURED ON OUR SOCIAL MEDIA CHANNELS AND WEBSITE.</p>
+                    <p className="text">Tagueanos como #yakohw o #yakohorseworld y tu foto puede aparecer aquí</p>
                     <br/>
                     <div className="flex">
                         <div className="insta" style={{backgroundImage:`url("https://scontent.fmex6-1.fna.fbcdn.net/v/t31.0-8/28337573_1551789051583144_8318088803260683533_o.jpg?oh=df69f498652f8db950e3cb009d28b818&oe=5B4B9183")`}}>

@@ -1,5 +1,26 @@
-.recuadro{
-    background-image: url(../../assets/PROMO.jpg);
+
+.recuadro_dos{
+    background-image: url("../../assets/Promo330x170.jpg");
+    background-size: cover;
+    background-position: center;
+    width:80%;
+    margin: 50px auto;
+    height:170px;
+    text-align: center;
+    display: none;
+}
+.reacuadro_tres{
+    background-image: url("../../assets/Promo256x170.jpg");
+    background-size: cover;
+    background-position: center;
+    width:80%;
+    margin: 50px auto;
+    height:170px;
+    text-align: center;
+    display: none;
+}
+.recuadro_uno{
+    background-image: url("../../assets/PROMO.jpg");
     background-size: cover;
     background-position: center;
     width:80%;
@@ -17,4 +38,20 @@
     color:white;
     text-transform: uppercase;
     font-family: Avenir;
+}
+@media(max-width: 430px){
+    .recuadro_uno{
+        display: none;
+    }
+    .recuadro_dos{
+        display: inherit;
+    }
+}
+@media(max-width: 335px){
+    .recuadro_tres{
+        display: inherit;
+    }
+    .recuadro_dos{
+        color:inherit;
+    }
 }

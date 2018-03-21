@@ -45,6 +45,9 @@
     text-align: center;
 }
 
+.dropbtn h3{
+    font-family: Avenir;
+}
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
@@ -121,11 +124,15 @@
         font-size: 20px;
     }
 }
-@media(max-width: 450px){
+@media(max-width: 650px){
 
     .pestanas, .search{
         display: none;
     }
+
+}
+@media(max-width: 450px){
+
     .owl-carousel .owl-item img{
 
         height: 500px;

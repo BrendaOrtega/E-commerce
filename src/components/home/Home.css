@@ -74,7 +74,9 @@
     background-color: transparent;
     transform: all 1s ease;
 }
-
+.cov h3{
+    font-family: Millard;
+}
 
 .ant-carousel .slick-slide {
     width:100%;

@@ -8,7 +8,7 @@ class Seller extends Component {
         return (
             <div style={{width:"80%", margin:"50px auto", textAlign:"center", paddingBottom:"50px"}}>
                 <div className="blog_img_large">
-                    <h3>YAKO BLOG</h3>
+                    <h2>YAKO BLOG</h2>
                 </div>
                 <div className="flex">
                     <div  className="blog_img maruno">
