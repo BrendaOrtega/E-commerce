@@ -23,9 +23,9 @@ class HomeContainer extends Component {
                 <Relevantes />
                 <Publi />
                 <Galeria />
+                <div className="borrar">
                 <Video />
-
-
+                </div>
             </div>
         );
     }

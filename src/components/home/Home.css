@@ -121,3 +121,9 @@
 .siete{
     background-image: url('../../assets/7.jpg');
 }
+
+@media(max-width: 430px){
+    .borrar{
+        display: none;
+    }
+}
