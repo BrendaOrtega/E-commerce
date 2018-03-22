@@ -12,7 +12,13 @@ class Publi extends Component {
     render() {
         return (
             <div>
-                <div className="recuadro">
+                <div className="recuadro_uno">
+
+                </div>
+                <div className="recuadro_dos">
+
+                </div>
+                <div className="recuadro_tres">
 
                 </div>
             </div>

@@ -38,10 +38,18 @@ class FooterContainer extends Component {
                         <div className="redes">
 
                             <h3 style={{color:"white"}}>Nuestras redes</h3>
-                            <FontAwesome name="facebook-square" size="2x" />
-                            <FontAwesome name="twitter-square" size="2x"/>
-                            <FontAwesome name="instagram" size="2x"/>
-                            <FontAwesome name="youtube" size="2x"/>
+                                <Link  to="https://www.facebook.com/yakohw/" target="_blank">
+                                    <FontAwesome name="facebook-square" size="2x" />
+                                </Link>
+                                <Link to="https://twitter.com/YakoHorseworld" target="_blank">
+                                    <FontAwesome name="twitter-square" size="2x"/>
+                                </Link>
+                                <Link to="https://www.instagram.com/yakohw/?hl=es-la" target="_blank">
+                                    <FontAwesome name="instagram" size="2x"/>
+                                </Link>
+                                <Link to="" target="_blank">
+                                    <FontAwesome name="youtube" size="2x"/>
+                                </Link>
                         </div>
                         <div>
                             <img className="logo_y" src={logoy} alt=""/>

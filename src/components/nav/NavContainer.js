@@ -105,6 +105,7 @@ class NavContainer extends Component {
                                 <Link  to="/">Hooey</Link>
                                 <Link  to="/">Cactus Ropes</Link>
                                 <Link  to="/">Impact Gel</Link>
+                                <Link  to="/">Heritage</Link>
                             </div>
                         </div>
 
@@ -114,6 +115,7 @@ class NavContainer extends Component {
                                 <Link to="/">Todo</Link>
                                 <Link to="/">Entrevistas</Link>
                                 <Link to="/">Artículos</Link>
+                                <Link to="/">Reseñas</Link>
                             </div>
                         </div>
 
