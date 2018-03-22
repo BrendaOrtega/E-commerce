@@ -4,7 +4,6 @@
 import React, {Component} from 'react';
 import './Home.css';
 import { Carousel } from 'antd';
-import OwlCarousel from 'react-owl-carousel';
 
 
 class Slide extends Component {

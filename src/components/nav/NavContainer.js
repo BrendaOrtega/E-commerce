@@ -15,24 +15,37 @@ class NavContainer extends Component {
     render() {
         return (
             <div className="nav_fix">
-                <div className="box_nav">
+                <div className="promo">
+                    <p>Envíos gratis en compras de más de $2,500.00 m.n.</p>
+                </div>
+                <div >
                     <div className="nav_superior fle">
-                        <label className="bx search" style={{textAlign:"left"}}>
-                            <input type="text" name="name" placeholder="Buscar"/>
-                            <FontAwesome name="search" />
-                        </label>
-                        <span className="bx">
-                            <Link to="/">
-                                <img src={logo} alt=""/>
-                            </Link>
-                        </span>
-                        <div className="user_nav bx" style={{textAlign:"right"}}>
+                        <div className="user_nav">
+
+
+                            <label className="search">
+                                <input type="text" name="name" placeholder="Buscar"/>
+                                <FontAwesome name="search" />
+                            </label>
+                            <Link to="/contacto">
+                            <span>Contáctanos</span>
+                        </Link>
+                        </div>
+                        <div className="user_nav bx" >
                             <Link to="/perfil">
                                 <span>Mi cuenta</span>
                             </Link>
                                 <span><FontAwesome name="shopping-cart" /></span>
                         </div>
                     </div>
+                    <div>
+                        <span className="bx">
+                            <Link to="/">
+                                <img src={logo} alt=""/>
+                            </Link>
+                        </span>
+                    </div>
+                    <div className="box_nav">
                         <div className="flex pestanas">
 
                         <div className="dropdown">
@@ -118,7 +131,7 @@ class NavContainer extends Component {
                                 <Link to="/">Reseñas</Link>
                             </div>
                         </div>
-
+                        </div>
                     </div>
                 </div>
             </div>

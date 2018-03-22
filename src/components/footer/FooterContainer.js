@@ -12,7 +12,7 @@ class FooterContainer extends Component {
         return (
             <div className="footer">
                 <div style={{width:"80%", margin:"0px auto"}}>
-                    <div style={{display:"flex", flexWrap:"wrap", justifyContent:"space-between"}}>
+                    <div className="flexi">
                         <div>
                             <h3 style={{color:"white"}}>Yako</h3>
                             <Link to="/yako">
@@ -22,7 +22,7 @@ class FooterContainer extends Component {
                                 <p>Preguntas Frecuentes</p>
                             </Link>
                             <Link to="/contacto">
-                                <p>Contactanos</p>
+                                <p>Contáctanos</p>
                             </Link>
                         </div>
                         <div>

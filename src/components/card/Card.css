@@ -2,12 +2,11 @@
 
 .card{
     text-align: center;
-
     width:200px;
     min-width:200px;
     min-height: 270px;
     max-height:271px;
-    /*flex-grow: 1;*/
+    flex-grow: 1;
     margin: 10px 20px 30px 20px;
 
 }

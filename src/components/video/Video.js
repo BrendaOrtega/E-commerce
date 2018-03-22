@@ -10,7 +10,7 @@ class Video extends Component {
                 <div style={{width:"80%", margin:"50px auto"}}>
                     <div className="flex">
                         <div className="boxi">
-                            <iframe className="video"  src="https://www.youtube.com/embed/T5GBgu1bBsY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe title="video" className="video"  src="https://www.youtube.com/embed/T5GBgu1bBsY" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen/>
                         </div>
                         <div className=" boxi text_video">
                             <h3>The city with a touch of the horseworld.</h3>

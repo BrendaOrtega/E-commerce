@@ -11,7 +11,7 @@ class PreguntasDisplay extends Component {
     }
     render() {
         return (
-            <div style={{padding:"170px 20%", borderTop:"1px solid #f8f8f7", borderBottom:"1px solid #f8f8f7"}} className="asks">
+            <div style={{padding:"200px 20%", borderTop:"1px solid #f8f8f7", borderBottom:"1px solid #f8f8f7"}} className="asks">
 
                 <h3 className="titulo">Preguntas frecuentes</h3>
                 <Collapse bordered={false} defaultActiveKey={['1']}>

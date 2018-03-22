@@ -39,7 +39,7 @@
     text-transform: uppercase;
     font-family: Avenir;
 }
-@media(max-width: 430px){
+@media(max-width: 750px){
     .recuadro_uno{
         display: none;
     }

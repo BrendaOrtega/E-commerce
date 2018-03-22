@@ -8,7 +8,6 @@ import Categorias from './Categorias';
 import Publi from '../publi/Publi';
 import Relevantes from './Relevantes';
 import Video from '../video/Video';
-import Seller from '../seller/Seller';
 import Galeria from '../galeria/Galeria';
 
 class HomeContainer extends Component {
@@ -25,7 +24,7 @@ class HomeContainer extends Component {
                 <Publi />
                 <Galeria />
                 <Video />
-                <Seller />
+
 
             </div>
         );

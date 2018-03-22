@@ -3,17 +3,30 @@
     position: fixed;
     background-color: white;
     z-index: 9999;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.promo{
+    background-color: #9b8b7d;
+    width:100%;
+    height:40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.promo p{
+    font-family: Avenir;
+    padding-top: 10px;
+    color:white;
 }
 .box_nav{
     width:90%;
     margin:0 auto;
     text-align: center;
-    margin-top: 20px;
 }
-.box_nav img{
-    width:200px;
+.nav_fix img{
+    width:150px;
     margin: 0px 0 5px 0;
+    margin-top: -10px;
 }
 .flex{
     display: flex;
@@ -39,7 +52,7 @@
     height:100%;   width:150px;
     flex-grow: 1;
 
-    font-size: 14px;
+    font-size: 12px;
     border: none;
     cursor: pointer;
     text-align: center;
@@ -76,28 +89,26 @@
     display: block;
 }
 .nav_superior{
-    width: 90%;
+    width:90%;
     margin: 0 auto;
-    margin-top: -20px;
+    margin-top: -5px;
 }
 .fle{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.bx{
-    width:100px;
-    flex-grow: 1;
-}
+
 .nav_superior input{
     border: none;
-    width:150px;
+    width:100px;
     margin-left: -25px;
     border-bottom: 1px solid #e0e0e0 ;
 }
-.search span{
+.search{
     cursor: pointer;
+    margin: 0 30px;
 }
 .nav_superior input:selection{
     color:transparent;
@@ -105,7 +116,7 @@
 }
 .user_nav span{
     margin: 0 5px;
-    font-size: 17px;
+    font-size: 14px;
 }
 .log{
     font-size: 40px;

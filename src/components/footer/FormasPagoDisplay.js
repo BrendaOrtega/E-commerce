@@ -1,8 +1,6 @@
 
 import React, { Component } from 'react';
 import './Footer.css';
-import { Collapse } from 'antd';
-const Panel = Collapse.Panel;
 
 
 class FormasPagoDisplay extends Component {
@@ -11,9 +9,9 @@ class FormasPagoDisplay extends Component {
     }
     render() {
         return (
-            <div style={{padding:"170px 20%", borderTop:"1px solid #f8f8f7", borderBottom:"1px solid #f8f8f7"}} className="asks">
+            <div style={{padding:"200px 20%", borderTop:"1px solid #f8f8f7", borderBottom:"1px solid #f8f8f7"}} className="asks">
 
-                <h3 className="titulo">Formasd de Pago</h3>
+                <h3 className="titulo">Formas de Pago</h3>
                         <p>Puedes realizar tus compras con cualquier tarjeta de crédito o débito.
                         </p>
                         <br/>

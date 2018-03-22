@@ -4,7 +4,6 @@
 import React, {Component} from 'react';
 import './Perfil.css';
 import {PerfilDisplay} from './PerfilDisplay';
-import {Link} from 'react-router-dom';
 
 
 class Perfil extends Component {

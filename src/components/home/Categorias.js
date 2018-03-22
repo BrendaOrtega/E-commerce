@@ -42,7 +42,7 @@ class Categorias extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="urbana" style={{backgroundImage:`url("https://scontent-dfw5-1.xx.fbcdn.net/v/t31.0-8/28423296_1553875311374518_389312772128215882_o.jpg?oh=6acfd0ff7a2368bde0f710dc79f4b5cd&oe=5B0A4AF6")`}}>
+                    <div className="urbana" style={{backgroundImage:`url("https://scontent-dfw5-1.xx.fbcdn.net/v/t31.0-8/29063818_1577343875694328_3015426363148363177_o.jpg?_nc_cat=0&oh=05b521c4dcdc104fbd4088f073345dc5&oe=5B415398")`}}>
                         <div className="cov">
                             <div style={{paddingTop:"35%"}}>
                                 <h3>Regional</h3>

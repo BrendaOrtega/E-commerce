@@ -6,7 +6,15 @@
     padding-top: 40px;
 
 }
-
+.flexi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flexi div{
+    width:150px;
+    flex-grow: 1;
+}
 .footer p{
     font-size: 14px;
     font-family: Avenir;
@@ -35,6 +43,7 @@
     width:130px;
 }
 .data_ctc{
+    padding: 0 2%;
     width:50%;
     justify-content: center;
     text-align: center;
@@ -60,7 +69,13 @@ a:hover{
     .data_ctc div{
         margin-top: 40px;
     }
+    .flexi{
+        justify-content: center;
+    }
+    .redes{
+        margin-top: 30px;
+    }
 }
-@media(max-width: 650px){
+@media(max-width: 700px){
     .logo_y{display: none}
 }
