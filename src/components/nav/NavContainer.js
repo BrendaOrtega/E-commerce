@@ -32,7 +32,7 @@ class NavContainer extends Component {
                         </Link>
                         </div>
                         <div className="user_nav bx" >
-                            <Link to="/perfil">
+                            <Link to="/login">
                                 <span>Mi cuenta</span>
                             </Link>
                                 <span><FontAwesome name="shopping-cart" /></span>
