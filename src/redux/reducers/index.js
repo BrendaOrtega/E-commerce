@@ -5,6 +5,8 @@ import {user} from "./login";
 import logger from 'redux-logger'
 import {cart} from './cart';
 import {products} from './products';
+//actions
+import {getUserFromLocalStorage} from '../actions/session.actions';
 
 
 const rootReducer = combineReducers({
@@ -19,6 +21,8 @@ const generateStore = function(){
         rootReducer,
         applyMiddleware(logger, thunk)
     );
+    //initial actions
+    store.dispatch(getUserFromLocalStorage());
     return store;
 };
 

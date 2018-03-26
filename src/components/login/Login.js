@@ -15,6 +15,10 @@ class Login extends Component{
         }
     }
 
+    componentWillMount(){
+        if(localStorage.getItem('user')) this.props.history.push('/perfil')
+    }
+
     onChange = (e) => {
         const field = e.target.name;
         const value = e.target.value;
@@ -26,7 +30,7 @@ class Login extends Component{
         e.preventDefault();
         console.log(this.state.auth)
         this.props.localLogin(this.state.auth)
-        .then(r=>this.props.history.push('/profile'))
+        .then(r=>this.props.history.push('/perfil'))
         .catch(e=>alert("Error", e.statusText));
     }
     facebookLogin = (e) => {
@@ -34,6 +38,7 @@ class Login extends Component{
         this.props.faceLogin()
         .then(()=>{
             console.log(this.props.user);
+            this.props.history.push('/perfil')
         });
         //.then(res=>this.props.history.push('/perfil'));
     }
@@ -41,7 +46,7 @@ class Login extends Component{
         e.preventDefault();
         this.props.googLogin()
         .then(()=>{
-            this.props.history.push('/profile')
+            this.props.history.push('/perfil')
         });
     }
 

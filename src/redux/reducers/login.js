@@ -2,7 +2,8 @@ import {combineReducers} from 'redux'
 import {
     FACEBOOK_LOGIN_SUCCESS,
     GOOGLE_LOGIN_SUCCESS,
-    LOCAL_LOGIN_SUCCESS
+    LOCAL_LOGIN_SUCCESS,
+    LOGIN_SUCCESS
 } from '../actions/session.actions';
 
 export function user(state={}, action){
@@ -12,6 +13,8 @@ export function user(state={}, action){
         case GOOGLE_LOGIN_SUCCESS:
             return action.user;
         case LOCAL_LOGIN_SUCCESS:
+            return action.user;
+        case LOGIN_SUCCESS:
             return action.user;
         case "LOGOUT_SUCCESS":
             return {};
