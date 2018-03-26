@@ -3,18 +3,31 @@ import {LoginDisplay} from './LoginDisplay';
 //redux 
 import {connect} from 'react-redux';
 import {faceLogin, googLogin} from '../../redux/actions/session.actions';
-import {addItem} from '../../redux/actions/cart.actions';
+import {localLogin} from '../../redux/actions/session.actions';
+
 
 class Login extends Component{
 
     state = {
-        
+        auth:{
+            email:'',
+            password:''
+        }
     }
 
-    onChange = () => {}
+    onChange = (e) => {
+        const field = e.target.name;
+        const value = e.target.value;
+        let {auth} = this.state;
+        auth[field] = value;
+        this.setState({auth});
+    }
     submit = (e) => {
         e.preventDefault();
-        this.props.addItem();
+        console.log(this.state.auth)
+        this.props.localLogin(this.state.auth)
+        .then(r=>this.props.history.push('/profile'))
+        .catch(e=>alert("Error", e.statusText));
     }
     facebookLogin = (e) => {
         e.preventDefault();
@@ -28,7 +41,7 @@ class Login extends Component{
         e.preventDefault();
         this.props.googLogin()
         .then(()=>{
-            console.log(this.props.user);
+            this.props.history.push('/profile')
         });
     }
 
@@ -56,5 +69,5 @@ function mapStateToProps(state, ownProps){
 export default connect(mapStateToProps, {
     faceLogin, 
     googLogin,
-    addItem
+    localLogin
 })(Login);
