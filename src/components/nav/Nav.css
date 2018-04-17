@@ -1,3 +1,10 @@
+.letrero{
+    color:#254004;
+    font-size: 20px;
+    font-family: Avenir;
+    margin: 10px 0;
+    text-align: center;
+}
 .nav_fix{
     width:100%;
     position: fixed;
