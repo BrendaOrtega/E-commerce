@@ -8,6 +8,8 @@ import FormasDisplay from './components/footer/FormasPagoDisplay';
 import SobreYako from './components/footer/SobreYako';
 import Politicas from './components/footer/Politicas';
 import Contacto from './components/footer/Contacto';
+import Login from './components/login/Login';
+import Admin from './components/admin/Admin';
 
 export const Routes = () => (
     <Switch>
@@ -19,5 +21,7 @@ export const Routes = () => (
         <Route path="/politicas-de-privacidad" component={Politicas} />
         <Route path="/yako" component={SobreYako} />
         <Route path="/contacto" component={Contacto} />
+        <Route path="/login" component={Login} />
+        <Route path="/admin" component={Admin} />
     </Switch>
 );

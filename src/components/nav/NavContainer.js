@@ -6,13 +6,22 @@ import './Nav.css';
 import {Link} from 'react-router-dom';
 import FontAwesome from 'react-fontawesome';
 import logo from '../../assets/yako.png';
+import {connect} from 'react-redux';
+import {logout} from '../../redux/actions/session.actions';
+import {withRouter} from 'react-router-dom';
 
 class NavContainer extends Component {
+
+    logout = ()=>{
+        this.props.logout();
+        this.props.history.push('/login');
+    }
 
     componentDidMount () {
         window.scroll(0, 0)
     }
     render() {
+        const {user} = this.props;
         return (
             <div className="nav_fix">
                 <div className="promo">
@@ -32,9 +41,11 @@ class NavContainer extends Component {
                         </Link>
                         </div>
                         <div className="user_nav bx" >
-                            <Link to="/perfil">
-                                <span>Mi cuenta</span>
-                            </Link>
+                            {user ? <a  onClick={this.logout}>
+                                <span>Logout</span>
+                            </a>:<Link  to="/login">
+                                <span>Login</span>
+                            </Link>}
                                 <span><FontAwesome name="shopping-cart" /></span>
                         </div>
                     </div>
@@ -139,4 +150,10 @@ class NavContainer extends Component {
     }
 }
 
-export default NavContainer;
+function mapStateToProps(state){
+    return {
+        user: Object.keys(state.user).length > 0 ? state.user : null
+    }
+}
+
+export default withRouter(connect(mapStateToProps,{logout})(NavContainer));
